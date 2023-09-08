@@ -97,6 +97,19 @@ The following features were encoded from categorial to numeric values.
 ● Shot body part
 ● Shot type
 
+## Feature Selection and XGBOOST
+Using our domain knowledge we have selected these features.
+1. Angle to Goal
+2. Distance to Goal
+3. Shot Type
+4. Shot Technique
+5. Player Count
+6. Shot Outcome (Target)
+7. Statsbomb Shot XG (Validation)
+
+![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/1af54992-ba38-469b-96f1-bd256aee0fa0)
+
+
 
 
 
