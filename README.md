@@ -35,7 +35,8 @@ models. These plots show random events that happened in 17 seasons of
 la-liga. Though they show kind of a trend, we cannot base our model on the
 idea that a shot from certain positions will result in a goal.
 
-![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/6fa80b76-7ae6-488b-954b-42f3bbd1dd6d) ![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/d350fb97-babf-490f-9156-76905e137959)
+![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/6fa80b76-7ae6-488b-954b-42f3bbd1dd6d) 
+![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/d350fb97-babf-490f-9156-76905e137959)
 ![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/0507964f-0005-4c4c-963e-d949c8baf409)
 
 
