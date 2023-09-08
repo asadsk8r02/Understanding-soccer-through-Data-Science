@@ -40,6 +40,21 @@ idea that a shot from certain positions will result in a goal.
 ![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/0507964f-0005-4c4c-963e-d949c8baf409)
 
 
+We further analyzed how different shot features count towards different
+outcomes of a shot. One interesting fact we found from this analysis is that
+even though there are fewer shots taken from the left foot than the right foot,
+the conversion count of these shots are almost equal.
+
+![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/45b2beaf-1fda-46c4-ab2a-999a3817974e)
+![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/cd521382-26e9-4e18-866e-e1af6a2147dc)
+![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/74ef8940-2bb4-45fd-8050-453d47bf5bb6)
+
+
+
+
+
+
+
 
 
 
