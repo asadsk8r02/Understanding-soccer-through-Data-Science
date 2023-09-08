@@ -86,6 +86,7 @@ player taking the shots are considered but only in the triangular region
 defined by cartesian coordinates of the goal post and the player taking
 the shot. The following flowchart shows the formula applied and the
 condition imposed in order to calculate the player count.
+
 ![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/3e49adfb-b211-406d-ab17-6317434058c9)
 ![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/799ba471-4df1-44bb-8cc4-376a87d1305e)
 
