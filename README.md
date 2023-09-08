@@ -140,6 +140,34 @@ Target: Shot Outcome
 Validation Feature: Statsbomb XG
 ![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/d65721fb-c4dd-4177-b576-1dac44eaec9d)
 
+## Probability Rings and XG
+Part 2 of this project goal was to develop probability rings to understand
+scoring chances. We used MPL soccer to plot a soccer pitch and generated data
+points for shot distance and angle based on the pitch coordinates. We then
+used our model 1 to find XG’s for all of these points and plotted on the pitch.
+
+We can see from the plot the probability of scoring decreases as we move
+away from the goal. Near the goal line there is a 30% chance, meaning a shot
+from that ring has a 30% chance of being converted into a goal.
+
+This plot can be used to understand scoring location. It also explains why
+scoring from a certain location is preferred and why not from out. From the
+plot we can also see the relationship between angle, distance and goals.
+XG Model can be used as follows:
+1) We can use it to make players and teams understand where their
+shooting chances are coming from and what quality or XG of chances
+they are producing.
+2) We can evaluate two La-Liga strikers who have similar finishing skills.
+Our XG model can evaluate them based on how often they get better
+scoring chances. Eg how many of their chances are coming from the 30%
+ring.
+3) To evaluate a team we can add the Shot Xg’s produced by them against
+an opponent
+
+![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/490a8c4f-7828-47dd-b140-544a50bef1a2)
+
+
+
 
 
 
