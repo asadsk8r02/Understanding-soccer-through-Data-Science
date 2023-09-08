@@ -141,7 +141,7 @@ Validation Feature: Statsbomb XG
 ![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/d65721fb-c4dd-4177-b576-1dac44eaec9d)
 
 ## Probability Rings and XG
-Part 2 of this project goal was to develop probability rings to understand
+The later part of this project goal was to develop probability rings to understand
 scoring chances. We used MPL soccer to plot a soccer pitch and generated data
 points for shot distance and angle based on the pitch coordinates. We then
 used our model 1 to find XG’s for all of these points and plotted on the pitch.
