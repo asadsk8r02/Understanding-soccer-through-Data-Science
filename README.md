@@ -109,6 +109,42 @@ Using our domain knowledge we have selected these features.
 
 ![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/1af54992-ba38-469b-96f1-bd256aee0fa0)
 
+## Predictive Model
+The following results were formulated in terms of:
+● The probabilities from the created model plotted against the Statsbomb
+shot XG’s of the testing data.
+● Mean squared difference between predicted XG and the actual XG on
+the two testing data sets.
+
+● Model 1 results
+Features: Shot Angle, Shot Distance
+Target: Shot Outcome
+Validation Feature: Statsbomb XG
+![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/e860af09-5cd2-45e0-b6f6-1c0a1781666c)
+
+● Model 2 results
+Features: Shot Angle, Shot Distance, Body Part
+Target: Shot Outcome
+Validation Feature: Statsbomb XG
+![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/f88d85d0-7d68-4e79-bb28-eb3a75cd59d7)
+
+● Model 3 results
+Features: Shot Angle, Shot Distance, Body Part and Technique
+Target: Shot Outcome
+Validation Feature: Statsbomb XG
+![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/cf8ab437-8412-4796-97ae-ba09d2586375)
+
+● Model 4 results
+Features: Shot Angle, Shot Distance, Body Part, Player Count
+Target: Shot Outcome
+Validation Feature: Statsbomb XG
+![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/d65721fb-c4dd-4177-b576-1dac44eaec9d)
+
+
+
+
+
+
 
 
 
