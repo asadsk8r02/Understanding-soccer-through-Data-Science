@@ -49,6 +49,60 @@ the conversion count of these shots are almost equal.
 ![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/cd521382-26e9-4e18-866e-e1af6a2147dc)
 ![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/74ef8940-2bb4-45fd-8050-453d47bf5bb6)
 
+## Feature Creation and Encoding
+### Feature Creation
+● Distance from goal:
+
+The distance between the player taking the shot and the goal
+center is calculated in a same way as the distance between two points
+with Cartesian coordinates A(x1, y1) and B(x2, y2), given by the formula:
+
+Distance = √[(x₂ - x₁)² + (y₂ - y₁)²],
+
+where x and y are the transformed coordinates with respect to goal.
+
+● Angle from goal:
+
+To calculate the angle from which the player has taken the shot, it
+is required to take into consideration basic trigonometric laws. Using the
+cartesian coordinates, distance from the goal, and width of the goal, the
+following equation is formulated taking reference from the paper
+entitled “A mathematics-based new penalty area in football: tackling
+diving ”.
+
+Angle = arctan((b*x) / (x**2+y**2 - ((b/2)**2))),
+
+where x and y are the transformed coordinates with respect to goal and,
+goal width (b) = 8 units
+
+![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/16f3a44a-6efd-4f5b-bd3d-86938e81a8ae)
+
+● Player count:
+
+The player count is defined as the number of players from both
+sides which are in front or causing occlusion in the view of goal for the
+player taking the shot. Not all players which are in front or ahead of the
+player taking the shots are considered but only in the triangular region
+defined by cartesian coordinates of the goal post and the player taking
+the shot. The following flowchart shows the formula applied and the
+condition imposed in order to calculate the player count.
+![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/3e49adfb-b211-406d-ab17-6317434058c9)
+![image](https://github.com/asadsk8r02/Understanding-soccer-through-Data-Science/assets/53692166/799ba471-4df1-44bb-8cc4-376a87d1305e)
+
+### Feature Encoding
+The following features were encoded from categorial to numeric values.
+● Shot outcome(Target) : 1 if goal else 0
+● Shot technique
+● Shot body part
+● Shot type
+
+
+
+
+
+
+
+
 
 
 
